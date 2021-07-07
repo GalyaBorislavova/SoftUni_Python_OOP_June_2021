@@ -1,7 +1,7 @@
 class Shop:
     def __init__(self, name: str, *items):
         self.name = name
-        self.items = list(items)
+        self.items = list(*items)
 
     def get_items_count(self):
         return len(self.items)
