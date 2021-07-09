@@ -23,9 +23,6 @@ account = Account(1234, "George", 1000)
 print(account.credit(500))
 print(account.debit(1500))
 print(account.info())
-
-print("*" * 50)
-
 account = Account(5411256, "Peter")
 print(account.debit(500))
 print(account.credit(1000))

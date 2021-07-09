@@ -9,13 +9,13 @@ class Section:
 
     def task_in_section(self, task_to_check: Task):
         if isinstance(task_to_check, Task):
-            for task in self.tasks:
-                if task.name == task_to_check.name:
+            for t in self.tasks:
+                if t.name == task_to_check.name:
                     return True
             return False
-        for task in self.tasks:
-            if task.name == task_to_check:
-                return task
+        for t in self.tasks:
+            if t.name == task_to_check:
+                return t
         return None
 
     def add_task(self, new_task: Task):
@@ -36,7 +36,7 @@ class Section:
         return f"Cleared {len(self.tasks) - len(only_not_completed)} tasks."
 
     def view_section(self):
-        task_details = [task.details() for task in self.tasks]
+        task_details = [t.details() for t in self.tasks]
         return f"Section {self.name}:" + "\n" + '\n'.join(task_details)
 
 

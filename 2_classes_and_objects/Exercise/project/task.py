@@ -32,4 +32,3 @@ class Task:
 
     def details(self):
         return f"Name: {self.name} - Due Date: {self.due_date}"
-
