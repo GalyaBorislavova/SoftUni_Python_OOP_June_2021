@@ -1,4 +1,4 @@
-from project.song import Song
+from project.Spoopify.song import Song
 
 
 class Album:
