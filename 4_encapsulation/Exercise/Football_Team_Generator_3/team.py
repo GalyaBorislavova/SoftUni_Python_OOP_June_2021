@@ -1,4 +1,4 @@
-from project.player import Player
+from Football_Team_Generator_3.player import Player
 
 
 class Team:

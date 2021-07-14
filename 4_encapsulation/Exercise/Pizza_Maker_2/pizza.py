@@ -1,5 +1,5 @@
-from project.dough import Dough
-from project.topping import Topping
+from Pizza_Maker_2.dough import Dough
+from Pizza_Maker_2.topping import Topping
 
 
 class Pizza:
@@ -54,9 +54,9 @@ class Pizza:
 
 
 if __name__ == "__main__":
-    from project.dough import Dough
-    # from project.pizza import Pizza
-    from project.topping import Topping
+    from Hotel_room_4.dough import Dough
+    # from Hotel_room_4.pizza import Pizza
+    from Hotel_room_4.topping import Topping
 
     tomato_topping = Topping("Tomato", 60)
     print(tomato_topping.topping_type)
