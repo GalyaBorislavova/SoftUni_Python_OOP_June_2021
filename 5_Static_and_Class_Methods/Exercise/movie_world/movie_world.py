@@ -1,5 +1,5 @@
-from project.customer import Customer
-from project.dvd import DVD
+from movie_world.customer import Customer
+from movie_world.dvd import DVD
 
 
 class MovieWorld:
