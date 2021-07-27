@@ -1,5 +1,5 @@
-from project.animals.animal import Bird
-from project.food import Vegetable, Fruit, Meat, Seed
+from wild_farm.animals.animal import Bird
+from wild_farm.food import Vegetable, Fruit, Meat, Seed
 
 
 class Owl(Bird):
@@ -11,13 +11,6 @@ class Owl(Bird):
     def make_sound(self):
         return "Hoot Hoot"
 
-    # def feed(self, food):
-    #     if food in self.acceptable_foods:
-    #         self.weight += food.quantity * self.weight_per_food
-    #         self.food_eaten += food.quantity
-    #     else:
-    #         return f"{type(self).__name__} does not eat {type(food).__name__}!"
-
 
 class Hen(Bird):
     def __init__(self, name: str, weight: float, wing_size: float):
@@ -27,13 +20,6 @@ class Hen(Bird):
 
     def make_sound(self):
         return "Cluck"
-
-    # def feed(self, food):
-    #     if food in self.acceptable_foods:
-    #         self.weight += food.quantity * self.weight_per_food
-    #         self.food_eaten += food.quantity
-    #     else:
-    #         return f"{type(self).__name__} does not eat {type(food).__name__}!"
 
 
 if __name__ == "__main__":
