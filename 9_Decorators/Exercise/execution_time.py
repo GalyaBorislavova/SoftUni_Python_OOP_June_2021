@@ -7,6 +7,7 @@ def exec_time(func):
         result = func(*args)
         end_time = time.time()
         return end_time - start_time
+
     return wrapper
 
 

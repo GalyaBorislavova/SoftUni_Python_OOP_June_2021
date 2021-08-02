@@ -7,7 +7,6 @@ def cache(func):
         else:
             log[n] = func(n)
             return func(n)
-
     wrapper.log = log
 
     return wrapper

@@ -16,6 +16,5 @@ def add(a, b):
 def mult(a, b):
     return a * b
 
-
 add(2, 2)
 mult(6, 4)

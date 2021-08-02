@@ -16,6 +16,7 @@ def times2(num):
     return num * 2
 
 
+
 print(times2(2))
 print(times2('Not A Number'))
 

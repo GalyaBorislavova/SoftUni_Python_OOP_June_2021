@@ -2,6 +2,7 @@ def make_bold(func):
     def wrapper(*args):
         result = func(*args)
         return f"<b>{result}</b>"
+
     return wrapper
 
 

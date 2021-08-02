@@ -7,6 +7,7 @@ def tags(tag):
     return decorator
 
 
+
 @tags('p')
 def join_strings(*args):
     return "".join(args)

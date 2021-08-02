@@ -12,5 +12,6 @@ class LoggedTests(unittest.TestCase):
         self.assertEqual(result, 'you called func(4, 4, 4)\nit returned 6')
 
 
+
 if __name__ == '__main__':
     unittest.main()

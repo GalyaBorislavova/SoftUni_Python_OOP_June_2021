@@ -5,6 +5,7 @@ def logged(func):
     return wrapper
 
 
+
 @logged
 def func(*args):
     return 3 + len(args)
